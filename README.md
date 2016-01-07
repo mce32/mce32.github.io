@@ -22,3 +22,4 @@ Here are some steps to get you started:
 ### Launching with Github Pages :rocket:
 
 Jekyll + Github pages is a marriage made in heaven. You can [use your own custom domain name](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) or use the default Github url (ie. http://username.github.io/repository) and not bother messing around with DNS settings.
+
