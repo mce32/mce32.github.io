@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Jami Gibbs</title>
+ <link href="http://localhost:4444/atom.xml" rel="self"/>
+ <link href="http://localhost:4444/"/>
+ <updated>2019-02-25T19:38:47-05:00</updated>
+ <id>http://localhost:4444</id>
+ <author>
+   <name>Jami Gibbs</name>
+   <email>jami0821@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>An evaluation of constituency-based hyponymy extraction from privacy policies</title>
+   <link href="http://localhost:4444/2017/09/04/re17/"/>
+   <updated>2017-09-04T00:00:00-04:00</updated>
+   <id>http://localhost:4444/2017/09/04/re17</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Automated extraction of regulated information types using hyponymy relations</title>
+   <link href="http://localhost:4444/2016/09/12/aire/"/>
+   <updated>2016-09-12T00:00:00-04:00</updated>
+   <id>http://localhost:4444/2016/09/12/aire</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+
+</feed>

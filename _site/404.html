@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     
-    {% include head.html %}
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    
+      404: Page not found &middot; Jami Gibbs
+    
+  </title>
+
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="shortcut icon" href="/public/favicon.png">
+  <link rel="alternate" type="application/atom+xml" title="Jami Gibbs" href="/atom.xml">
+</head>
+
     
     <body>
         
@@ -9,7 +23,7 @@
             <div class="large-12 large-centered columns">
                 
                 <header class="masthead">
-                    <img src="{{ site.baseurl }}/public/profile.jpg" alt="Morgan Evans">
+                    <img src="/public/profile.jpg" alt="Morgan Evans">
                         </header>
                 
             </div>
@@ -28,28 +42,39 @@
                 
                 <main>
                     <h2>Publications</h2>
-                    {% for post in site.posts %}
+                    
                     <div class="project-post">
-                        <h3>{{ post.title }}</a></h3>
-                        <h6>{{ post.authors }}</h6>
-                        <h6>{{ post.venue }}</h6>
-                        {{ post.content }}
+                        <h3>An evaluation of constituency-based hyponymy extraction from privacy policies</a></h3>
+                        <h6><b>Morgan C Evans,</b> Jaspreet Bhatia, Sudarshan Wadkar, Travis D Breaux</h6>
+                        <h6>2017 IEEE 25th International Requirements Engineering Conference (RE)</h6>
+                        
+
                         <ul>
-                            <li><a href="{{ post.paper }}"><i class="fa fa-file-text"></i></a>
-                                {% if post.site %}
-                                <li><a href="{{ post.site }}"><i class="fa fa-link"></i></a></li>
-                                {% endif %}
-                                {% if post.video %}
-                                <li><a href="{{ post.video }}"><i class="fa fa-video-camera"></i></a></li>
-                                {% endif %}
-                                {% if post.git %}
-                                <li><a href="{{ post.git }}"><i class="fa fa-github-alt"></i></a></li>
-                                {% endif %}
+                            <li><a href="https://namdy0429.github.io/paper/aire.pdf"><i class="fa fa-file-text"></i></a>
+                                
+                                
+                                
                                 </ul>
                         
                         <hr />
                     </div>
-                    {% endfor %}
+                    
+                    <div class="project-post">
+                        <h3>Automated extraction of regulated information types using hyponymy relations</a></h3>
+                        <h6>Jaspreet Bhatia, <b>Morgan C Evans,</b> Sudarshan Wadkar, Travis D Breaux</h6>
+                        <h6>2016 IEEE 24th International Requirements Engineering Conference Workshops (REW)</h6>
+                        
+
+                        <ul>
+                            <li><a href="https://namdy0429.github.io/paper/aire.pdf"><i class="fa fa-file-text"></i></a>
+                                
+                                
+                                
+                                </ul>
+                        
+                        <hr />
+                    </div>
+                    
                 </main>
                 
                 <footer>
@@ -59,7 +84,7 @@
                     </p>
                     
                     <p class="copyright">
-                    &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>
+                    &copy; <time datetime="2019-02-25T19:38:47-05:00">2019</time>
                     <a href="https://github.com/jamigibbs/portfolio">Jami Gibbs</a>
                     </p>
                 </footer>
@@ -74,17 +99,17 @@
                         </a>
                     </li>
                     <!--         <li>
-                     <a href="https://github.com/{{ site.github }}">
+                     <a href="https://github.com/jamigibbs">
                      <i class="fa fa-github"></i>
                      </a>
                      </li> -->
                     <li>
-                        <a href="https://twitter.com/{{ site.twitter }}">
+                        <a href="https://twitter.com/jamigibbs">
                             <i class="fa fa-twitter"></i>
                         </a>
                     </li> 
                     <li>
-                        <a href="https://www.linkedin.com/in/{{ site.linkedin }}">
+                        <a href="https://www.linkedin.com/in/">
                             <i class="fa fa-linkedin-square"></i>
                         </a>
                     </li>
@@ -93,7 +118,7 @@
             
         </div>
         
-        {% if site.google_analytics %}
+        
         <script>
             (function (i, s, o, g, r, a, m) {
              i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
@@ -101,9 +126,9 @@
              }, i[r].l = 1 * new Date(); a = s.createElement(o),
              m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
              })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-             ga('create', '{{ site.google_analytics }}', 'auto');
+             ga('create', 'UA-3363703-15', 'auto');
              ga('send', 'pageview');
-            </script> {% endif %}
+            </script> 
         
     </body>
     

@@ -2,8 +2,8 @@
 permalink:           pretty
 
 # Setup
-title:               Jami Gibbs
-tagline:             Software Developer from Chicago.
+title:               Morgan C Evans
+tagline:             Human
 url:                 http://jamigibbs.com
 paginate:            1
 baseurl:             ""
@@ -12,25 +12,25 @@ baseurl:             ""
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+sass_dir:          _sass
+style:            :compressed
 
 # About/contact
 author:
-  name:              Jami Gibbs
-  url:               https://twitter.com/jamigibbs
-  email:             jami0821@gmail.com
+name:              Morgan C Evans
+url:               https://twitter.com/mocaev
+email:             morganev@cs.cmu.edu
 
 # Custom vars
 version:             2.0.1
 github:
-  repo:              https://github.com/jamigibbs/portfolio
+repo:              https://github.com/jamigibbs/portfolio
 google_analytics:    UA-3363703-15
-twitter:             jamigibbs
-github:              jamigibbs
-dribbble:            jamigibbs
+twitter:
+github:
+dribbble:
 
 # Gems
 plugins:
-  # - jekyll-paginate
-  # - jekyll-gist
+# - jekyll-paginate
+# - jekyll-gist
