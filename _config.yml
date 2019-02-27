@@ -3,8 +3,8 @@ permalink:           pretty
 
 # Setup
 title:               Morgan C Evans
-tagline:             Human
-url:                 http://jamigibbs.com
+tagline:             Ph.D. Student at Carnegie Mellon University
+url:                 https://mce32.github.io
 paginate:            1
 baseurl:             ""
 
@@ -18,19 +18,21 @@ style:            :compressed
 # About/contact
 author:
 name:              Morgan C Evans
-url:               https://twitter.com/mocaev
+url:               https://twitter.com/mcevns
 email:             morganev@cs.cmu.edu
 
 # Custom vars
 version:             2.0.1
 github:
-repo:              https://github.com/jamigibbs/portfolio
-google_analytics:    UA-3363703-15
-twitter:
-github:
-dribbble:
+  repo:             
+google_analytics:    
+twitter:             mcevns
+github:              
+linkedin:            mcevns
 
 # Gems
 plugins:
 # - jekyll-paginate
 # - jekyll-gist
+
+
